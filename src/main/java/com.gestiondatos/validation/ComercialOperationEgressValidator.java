@@ -8,21 +8,21 @@ import com.gestiondatos.model.ItemType;
 
 public class ComercialOperationEgressValidator {
 
-    public void validateOpenStatus(ComercialOperationEgress comercialOperation){
+    public void validateOpenStatus(ComercialOperationEgress comercialOperationEgress){
 
-        if(isComercialOperationOpen(comercialOperation)){
+        if(isComercialOperationOpen(comercialOperationEgress)){
             throw new GesocException(GesocExceptionCode.CLOSE_COMERCIAL_OPERATION_EGRESS_CLOSE);
         }
     }
 
     public void validateItems(ComercialOperationEgress comercialOperationEgress){
+
         if(isAnyItemsIsService(comercialOperationEgress)){
             throw new GesocException(GesocExceptionCode.CLOSE_COMERCIAL_OPERATION_ENTRY_WITH_SERVICE);
         }
     }
 
     private Boolean isComercialOperationOpen(ComercialOperationEgress comercialOperationEgress){
-
         return comercialOperationEgress.getComercialOperationState().equals(ComercialOperationState.OPEN);
     }
 

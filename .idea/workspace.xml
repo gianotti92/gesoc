@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ae4466-80d0-4437-9332-bbcb5ddf0add" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gestiondatos/validation/ComercialOperationEgressValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.gestiondatos/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.gestiondatos/validation/ComercialOperationEgressValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressUtilTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +18,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="176" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,41 +41,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressUtilTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="147">
+              <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1826#1827#0" expanded="true" />
-                <element signature="e#3118#3119#0" expanded="true" />
-                <element signature="e#3159#3160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2104#2105#0" expanded="true" />
+                <element signature="e#2150#2151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationEgressService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="248">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,6 +82,7 @@
       <find>properties</find>
       <find>org.apache.maven.surefire:surefire-junit4</find>
       <find>junit</find>
+      <find>ComercialOperationEgressValidator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExeption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/util/ComercialOperationUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.gestiondatos/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationService.java" />
@@ -123,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/util/ComercialOperationEntryUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ItemType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/util/ComercialOperationEntryUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEntryValidator.java" />
@@ -131,9 +110,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/util/ComercialOperationEgressUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationEgressUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationEgressService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.gestiondatos/validation/ComercialOperationEgressValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/sampler/ComercialOperationEgressSampler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/validation/ComercialOperationEgressValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressServiceTest.java" />
       </list>
     </option>
   </component>
@@ -155,17 +140,11 @@
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gestiondedatos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="777" />
@@ -178,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +197,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.gestiondatos" type="462c0819:PsiDirectoryNode" />
               <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,43 +206,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.gestiondatos" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,14 +214,45 @@
               <item name="gesoc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gestiondatos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gestiondatos" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gesoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gesoc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gestiondatos" type="462c0819:PsiDirectoryNode" />
               <item name="validation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,6 +267,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gestiondatos.validation" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -304,24 +284,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComercialOperationEgressUtilTest">
-    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ComercialOperationEgressServiceTest">
+    <configuration name="All in gesoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gesoc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gestiondatos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gestiondatos" />
-      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.AppTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComercialOperationEgressUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComercialOperationEgressServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gesoc" />
       <extension name="coverage">
         <pattern>
@@ -330,39 +302,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gestiondatos.service" />
-      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.service.ComercialOperationEgressUtilTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.service.ComercialOperationEgressServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComercialOperationEgressUtilTest.calculateValueOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComercialOperationEgressValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gesoc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gestiondatos.service.*" />
+          <option name="PATTERN" value="com.gestiondatos.validation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gestiondatos.service" />
-      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.service.ComercialOperationEgressUtilTest" />
-      <option name="METHOD_NAME" value="calculateValueOk" />
+      <option name="PACKAGE_NAME" value="com.gestiondatos.validation" />
+      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.validation.ComercialOperationEgressValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComercialOperationEgressValidatorTest.validateItemFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gesoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gestiondatos.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gestiondatos.validation" />
+      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.validation.ComercialOperationEgressValidatorTest" />
+      <option name="METHOD_NAME" value="validateItemFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComercialOperationEgressUtilTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComercialOperationEgressValidatorTest.validateStatusFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gesoc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gestiondatos.service.*" />
+          <option name="PATTERN" value="com.gestiondatos.validation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gestiondatos.service" />
-      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.service.ComercialOperationEgressUtilTest" />
-      <option name="METHOD_NAME" value="init" />
+      <option name="PACKAGE_NAME" value="com.gestiondatos.validation" />
+      <option name="MAIN_CLASS_NAME" value="com.gestiondatos.validation.ComercialOperationEgressValidatorTest" />
+      <option name="METHOD_NAME" value="validateStatusFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,10 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComercialOperationEgressUtilTest" />
-        <item itemvalue="JUnit.ComercialOperationEgressUtilTest.calculateValueOk" />
-        <item itemvalue="JUnit.ComercialOperationEgressUtilTest.init" />
-        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="JUnit.ComercialOperationEgressServiceTest" />
+        <item itemvalue="JUnit.All in gesoc" />
+        <item itemvalue="JUnit.ComercialOperationEgressValidatorTest" />
+        <item itemvalue="JUnit.ComercialOperationEgressValidatorTest.validateItemFail" />
+        <item itemvalue="JUnit.ComercialOperationEgressValidatorTest.validateStatusFail" />
       </list>
     </recent_temporary>
   </component>
@@ -388,83 +376,52 @@
       <option name="presentableId" value="Default" />
       <updated>1585688750886</updated>
       <workItem from="1585688752299" duration="2494000" />
-      <workItem from="1585691706053" duration="9860000" />
+      <workItem from="1585691706053" duration="9960000" />
+      <workItem from="1585747280479" duration="876000" />
+      <workItem from="1585783156381" duration="2516000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComercialOperationEgressUtilTest_calculateValueOk - 2020.03.31 at 21h 37m 22s.xml">
-      <configuration name="ComercialOperationEgressUtilTest.calculateValueOk" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest_validateStatusFail - 2020.04.01 at 20h 54m 36s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest.validateStatusFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest_calculateValueOk - 2020.03.31 at 21h 38m 10s.xml">
-      <configuration name="ComercialOperationEgressUtilTest.calculateValueOk" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest_validateStatusFail - 2020.04.01 at 20h 55m 28s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest.validateStatusFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest_calculateValueOk - 2020.03.31 at 21h 39m 08s.xml">
-      <configuration name="ComercialOperationEgressUtilTest.calculateValueOk" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest_validateStatusFail - 2020.04.01 at 20h 56m 17s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest.validateStatusFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 39m 22s.xml">
-      <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest - 2020.04.01 at 20h 56m 31s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest_init - 2020.03.31 at 21h 42m 23s.xml">
-      <configuration name="ComercialOperationEgressUtilTest.init" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest_validateItemFail - 2020.04.01 at 21h 01m 04s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest.validateItemFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 42m 29s.xml">
-      <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest_validateItemFail - 2020.04.01 at 21h 01m 19s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest.validateItemFail" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 45m 13s.xml">
-      <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest - 2020.04.01 at 21h 02m 14s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 47m 51s.xml">
-      <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
+    <history-entry file="ComercialOperationEgressValidatorTest - 2020.04.01 at 21h 03m 01s.xml">
+      <configuration name="ComercialOperationEgressValidatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 49m 23s.xml">
-      <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
+    <history-entry file="All_in_gesoc - 2020.04.01 at 21h 03m 57s.xml">
+      <configuration name="All in gesoc" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComercialOperationEgressUtilTest - 2020.03.31 at 21h 49m 39s.xml">
+    <history-entry file="ComercialOperationEgressUtilTest - 2020.04.01 at 21h 11m 39s.xml">
       <configuration name="ComercialOperationEgressUtilTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12354000" />
+    <option name="totallyTimeSpent" value="15846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3634895" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32876712" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32956383" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3634895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33279485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -486,6 +443,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -495,10 +453,59 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33279485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gesoc$All_in_gesoc.ic" NAME="All in gesoc Coverage Results" MODIFIED="1585785833551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/App.java">
@@ -515,24 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -554,27 +544,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.gestiondatos/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.gestiondatos/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -599,58 +569,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gesoc.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEntryValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/util/ComercialOperationEntryUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.gestiondatos/validation/ComercialOperationEntryValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/util/ComercialOperationEntryUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.gestiondatos/validation/ComercialOperationEgressValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEntryValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/util/ComercialOperationEntryUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.gestiondatos/validation/ComercialOperationEntryValidatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/util/ComercialOperationEntryUtilTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -658,53 +581,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationEgress.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="293">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.23.0/mockito-core-2.23.0.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesoc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.212-amzn/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/sampler/ComercialOperationEgressSampler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/validation/ComercialOperationEgressValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="128">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocExceptionCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/exception/GesocException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/validation/ComercialOperationEgressValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="51" column="127" selection-start-line="51" selection-start-column="127" selection-end-line="51" selection-end-column="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/model/ComercialOperationEgress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.gestiondatos/service/ComercialOperationEgressService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="248">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gestiondatos/service/ComercialOperationEgressServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="147">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
           </folding>
         </state>
       </provider>
